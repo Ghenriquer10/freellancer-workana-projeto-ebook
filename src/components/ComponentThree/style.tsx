@@ -127,12 +127,12 @@ export const TextBenefits = styled.aside`
         }
 
         p{
-            font-size: 1.5em;
+            font-size: 1.2em;
             color: #fff;
             margin: 10px 0;
             
             @media (min-width: 320px) and (max-width: 480px) {
-                font-size: 1.1em;
+                font-size: 1.0em;
             }
         }
     }

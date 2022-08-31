@@ -58,8 +58,9 @@ export const ImageContainer = styled.section`
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 60px;
+        height: 70px;
         background-color: red;
+
         @media (min-width: 320px) and (max-width: 480px) {
             height: 50px;
         }
