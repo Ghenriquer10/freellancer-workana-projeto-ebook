@@ -1,7 +1,9 @@
 import * as C from './style'
 import remitlyLogo from '../../assets/remitly.png';
 import { SiWhatsapp } from 'react-icons/si';
-
+import { BsInstagram } from 'react-icons/bs';
+import { ImFacebook2 } from 'react-icons/im';
+import { SiYoutube } from 'react-icons/si';
 export default function Contacts() {
 
     function handleRedirect() {
@@ -20,6 +22,20 @@ export default function Contacts() {
                     <button onClick={handleRedirect}>
                         <SiWhatsapp />
                     </button>
+                </div>
+                <div className='social--medias'>
+                    <p>Siga-nos em nossas redes sociais:</p>
+                    <div className='icons'>
+                        <button>
+                            <BsInstagram className='insta' />
+                        </button>
+                        <button>
+                            <SiYoutube className='youtube' />
+                        </button>
+                        <button>
+                            <ImFacebook2 className='facebook' />
+                        </button>
+                    </div>
                 </div>
             </div>
         </C.Container>
