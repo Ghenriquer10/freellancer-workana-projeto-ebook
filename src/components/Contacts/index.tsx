@@ -10,6 +10,18 @@ export default function Contacts() {
         window.location.href = 'https://wa.me/55338404771?text=Quero%20pagar%20pelo%20Remitly%20e%20quero%20meu%20desconto%20de%2020%'
     }
 
+    function handleInsta() {
+        window.location.href = 'https://instagram.com/trillos.engenharia?igshid=YmMyMTA2M2Y='
+    }
+
+    function handleYoutube() {
+        window.location.href = 'https://youtube.com/channel/UCqqH8jMBI2y32di8VD-SZEw'
+    }
+
+    function handleFacebook() {
+        window.location.href = 'https://www.facebook.com/trillos.eng'
+    }
+
     return (
         <C.Container>
             <div className='contacts--field'>
@@ -26,13 +38,13 @@ export default function Contacts() {
                 <div className='social--medias'>
                     <p>Siga-nos em nossas redes sociais:</p>
                     <div className='icons'>
-                        <button>
+                        <button onClick={handleInsta}>
                             <BsInstagram className='insta' />
                         </button>
-                        <button>
+                        <button onClick={handleYoutube}>
                             <SiYoutube className='youtube' />
                         </button>
-                        <button>
+                        <button onClick={handleFacebook}>
                             <ImFacebook2 className='facebook' />
                         </button>
                     </div>
