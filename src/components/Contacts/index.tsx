@@ -5,7 +5,7 @@ import { SiWhatsapp } from 'react-icons/si';
 export default function Contacts() {
 
     function handleRedirect() {
-        window.location.href = 'https://web.whatsapp.com/send?phone=553384047719&text=Quero%20pagar%20pelo%20Remitly%20e%20Quero%20meu%20desconto%20de%2020%!'
+        window.location.href = 'https://wa.me/553384047719&text=Quero%20pagar%20pelo%20Remitly%20e%20Quero%20meu%20desconto%20de%2020%!'
     }
 
     return (
