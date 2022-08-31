@@ -8,7 +8,7 @@ export const Container = styled.article`
     align-items: center;
     justify-content: center;
     color: #fff;
-    padding: 20px 10px;
+    padding: 40px 10px;
 
     @media (min-width: 320px) and (max-width: 480px) {
         height: auto;
@@ -27,7 +27,7 @@ export const ImageContainer = styled.section`
     justify-content: center;
     flex-direction: column;
     height: 100%;
-    gap: 30px;
+    gap: 20px;
     p{
         text-align: center;
     }
@@ -36,15 +36,15 @@ export const ImageContainer = styled.section`
         text-align: center;
 
         p:nth-child(1){
-            font-size: 2.9em;
-            margin: 10px 0;
+            font-size: 2.5em;
+            margin: 5px 0;
             @media (min-width: 320px) and (max-width: 480px) {
                 font-size: 1.9em;
             }
         }
     
         p:nth-child(2){
-            font-size: 2em;
+            font-size: 1.8em;
             color: #09fd09;
 
             @media (min-width: 320px) and (max-width: 480px) {
@@ -72,7 +72,7 @@ export const ImageContainer = styled.section`
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
 
         .oldPrice{
             font-size: 1.4em;
