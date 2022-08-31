@@ -8,6 +8,7 @@ export const Container = styled.article`
     align-items: center;
     justify-content: center;
     color: #fff;
+    padding: 20px 10px;
 
     @media (min-width: 320px) and (max-width: 480px) {
         height: auto;

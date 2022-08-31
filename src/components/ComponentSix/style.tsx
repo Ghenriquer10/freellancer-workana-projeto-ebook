@@ -7,11 +7,11 @@ export const Container = styled.article`
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 20px 10px;
 
     @media (min-width: 320px) and (max-width: 480px) {
         height: auto;
         padding: 20px 10px;
-        padding-bottom: 20px;
     }
     
     @media (min-width: 481px) and (max-width: 1024px) {
