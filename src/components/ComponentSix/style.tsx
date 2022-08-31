@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.article`
     width: 100%;
-    height: 100vh;
     background-color: #2D2D2E;
     display: flex;
     align-items: center;
@@ -15,7 +14,7 @@ export const Container = styled.article`
     }
     
     @media (min-width: 481px) and (max-width: 1024px) {
-
+        height: auto;
     }
 `;
 
